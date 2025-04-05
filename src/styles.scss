@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --head: #171e25;
+    --head: #000000;
     --font: #FFFFFF;
     --icon: #FFFFFF;
     --hover-li: #3456;
@@ -21,11 +21,12 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: auto;
-    height: 100%;
     color: var(--font);
     box-sizing: border-box;
     background-color: var(--bg-main);
+    overflow-x: hidden;
 }

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faTiktok, faFacebook } from '@fortawesome/free-brands-svg-icons'
+
 
 @Component({
   selector: 'app-header',
@@ -12,8 +14,10 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons'
 })
 export class HeaderComponent implements OnInit {
   moon = faMoon;
+  instagram = faInstagram;
+  facebook = faFacebook;
+  tiktok = faTiktok;
 
-  ewcLogo = ''
   tantraLogo = '';
 
   constructor() {}

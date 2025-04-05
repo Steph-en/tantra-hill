@@ -8,10 +8,24 @@
     </li>
 
     <li class="socials-list">
-        <ul>tik</ul>
-        <ul>in</ul>
-        <ul>fac</ul>
+        <ul>
+            <a href="https://www.instagram.com/ewctantrahillscampus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <fa-icon [icon]="instagram"></fa-icon>
+            </a>
+        </ul>
+        <ul>
+            <a href="https://www.tiktok.com/@ewc.tantra.hills?is_from_webapp=1&sender_device=pc">
+                <fa-icon [icon]="tiktok"></fa-icon>
+            </a>
+        </ul>
+        <ul>
+            <a href="https://www.facebook.com/ewctantrahillscampus">
+                <fa-icon [icon]="facebook"></fa-icon>
+            </a>
+        </ul>
 
-        <button (click)="toggle()"><fa-icon [icon]="moon"></fa-icon></button>
+        <div class="toggle-btn">
+            <button (click)="toggle()"><fa-icon [icon]="moon"></fa-icon></button>
+        </div>
     </li>
 </header>
